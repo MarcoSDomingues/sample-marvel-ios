@@ -5,6 +5,15 @@
       location = "group:Marvel.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Common/MarvelUIKit/MarvelUIKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Common/MarvelDomain/MarvelDomain.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Common/MarvelNetwork/MarvelNetwork.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
