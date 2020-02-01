@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		936DD02A23E5918000C346CA /* MarvelDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 936DD02823E5918000C346CA /* MarvelDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		936DD03523E591CF00C346CA /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936DD03423E591CF00C346CA /* Comic.swift */; };
+		936DD08823E5E09A00C346CA /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936DD08723E5E09A00C346CA /* Thumbnail.swift */; };
+		936DD08A23E5E19000C346CA /* CharacterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936DD08923E5E19000C346CA /* CharacterRequest.swift */; };
+		936DD08E23E5E3F100C346CA /* ComicsUseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936DD08D23E5E3F100C346CA /* ComicsUseCaseType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +19,9 @@
 		936DD02823E5918000C346CA /* MarvelDomain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarvelDomain.h; sourceTree = "<group>"; };
 		936DD02923E5918000C346CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		936DD03423E591CF00C346CA /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		936DD08723E5E09A00C346CA /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
+		936DD08923E5E19000C346CA /* CharacterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRequest.swift; sourceTree = "<group>"; };
+		936DD08D23E5E3F100C346CA /* ComicsUseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsUseCaseType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +54,38 @@
 		936DD02723E5918000C346CA /* MarvelDomain */ = {
 			isa = PBXGroup;
 			children = (
+				936DD08623E5E08B00C346CA /* Entities */,
+				936DD08B23E5E1B900C346CA /* Use Cases */,
+				936DD08C23E5E1BF00C346CA /* Repositories */,
 				936DD02823E5918000C346CA /* MarvelDomain.h */,
-				936DD03423E591CF00C346CA /* Comic.swift */,
 				936DD02923E5918000C346CA /* Info.plist */,
 			);
 			path = MarvelDomain;
+			sourceTree = "<group>";
+		};
+		936DD08623E5E08B00C346CA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				936DD03423E591CF00C346CA /* Comic.swift */,
+				936DD08723E5E09A00C346CA /* Thumbnail.swift */,
+				936DD08923E5E19000C346CA /* CharacterRequest.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		936DD08B23E5E1B900C346CA /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+				936DD08D23E5E3F100C346CA /* ComicsUseCaseType.swift */,
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
+		936DD08C23E5E1BF00C346CA /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				936DD08823E5E09A00C346CA /* Thumbnail.swift in Sources */,
 				936DD03523E591CF00C346CA /* Comic.swift in Sources */,
+				936DD08A23E5E19000C346CA /* CharacterRequest.swift in Sources */,
+				936DD08E23E5E3F100C346CA /* ComicsUseCaseType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

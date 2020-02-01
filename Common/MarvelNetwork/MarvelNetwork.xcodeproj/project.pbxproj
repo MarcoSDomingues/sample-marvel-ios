@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		936DD04523E592ED00C346CA /* MarvelNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 936DD04323E592ED00C346CA /* MarvelNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		936DD08423E5D6BD00C346CA /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 936DD08323E5D6BD00C346CA /* Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		936DD04023E592ED00C346CA /* MarvelNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarvelNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		936DD04323E592ED00C346CA /* MarvelNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarvelNetwork.h; sourceTree = "<group>"; };
 		936DD04423E592ED00C346CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		936DD08323E5D6BD00C346CA /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,35 @@
 		936DD04223E592ED00C346CA /* MarvelNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				936DD08523E5D6F300C346CA /* Server */,
+				936DD08123E5D42500C346CA /* Entities */,
+				936DD08223E5D69D00C346CA /* Configs */,
 				936DD04323E592ED00C346CA /* MarvelNetwork.h */,
 				936DD04423E592ED00C346CA /* Info.plist */,
 			);
 			path = MarvelNetwork;
+			sourceTree = "<group>";
+		};
+		936DD08123E5D42500C346CA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		936DD08223E5D69D00C346CA /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				936DD08323E5D6BD00C346CA /* Config.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		936DD08523E5D6F300C346CA /* Server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Server;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				936DD08423E5D6BD00C346CA /* Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

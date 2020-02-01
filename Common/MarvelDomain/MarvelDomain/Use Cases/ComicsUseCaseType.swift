@@ -1,5 +1,5 @@
 //
-//  Comic.swift
+//  ComicsUseCaseType.swift
 //  MarvelDomain
 //
 //  Created by Marco Domingues on 01/02/2020.
@@ -8,4 +8,6 @@
 
 import Foundation
 
-public struct Comic {}
+public protocol ComicsUseCaseType {
+    func getComics() -> [Comic]
+}

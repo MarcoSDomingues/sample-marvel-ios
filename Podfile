@@ -10,3 +10,13 @@ target 'Marvel' do
   pod 'RxCocoa', '~> 5'
 
 end
+
+target 'MarvelDomain' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for MarvelDomain
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  
+end
