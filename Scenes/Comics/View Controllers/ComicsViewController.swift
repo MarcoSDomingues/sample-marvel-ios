@@ -7,8 +7,14 @@
 //
 
 import UIKit
+import RxSwift
 
 class ComicsViewController: UIViewController {
+    
+    // MARK: - Properties
+    
+    let viewModel: ComicsViewModel = ComicsViewModel()
+    lazy var disposeBag = DisposeBag()
     
     // MARK: - View Cycle
     
@@ -16,6 +22,12 @@ class ComicsViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = #colorLiteral(red: 0.370555222, green: 0.3705646992, blue: 0.3705595732, alpha: 1)
+        
+        viewModel.comics
+            .drive(onNext: { comics in
+                print(comics)
+            })
+            .disposed(by: disposeBag)
     }
     
 }

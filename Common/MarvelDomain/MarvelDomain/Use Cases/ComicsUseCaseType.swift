@@ -6,8 +6,9 @@
 //  Copyright © 2020 Marco. All rights reserved.
 //
 
+import RxSwift
 import Foundation
 
 public protocol ComicsUseCaseType {
-    func getComics() -> [Comic]
+    func getComics(with offset: Int) -> Single<[Comic]>
 }

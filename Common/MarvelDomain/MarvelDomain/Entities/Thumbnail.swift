@@ -10,10 +10,10 @@ import Foundation
 
 public struct Thumbnail {
     
-    public let path: String
-    public let ext: String
+    public let path: String?
+    public let ext: String?
     
-    public init(path: String, ext: String) {
+    public init(path: String?, ext: String?) {
         self.path = path
         self.ext = ext
     }

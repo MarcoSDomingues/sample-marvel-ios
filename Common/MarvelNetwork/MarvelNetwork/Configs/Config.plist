@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>host</key>
-	<string>https://gateway.marvel.com:443</string>
+	<string>https://gateway.marvel.com:443/v1/public</string>
 	<key>api-key</key>
 	<string>e71939ba2d93c78047908a73192b57c9</string>
 </dict>

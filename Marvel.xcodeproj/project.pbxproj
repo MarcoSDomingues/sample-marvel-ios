@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9309713F23E6223100F7B1ED /* ComicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9309713E23E6223100F7B1ED /* ComicViewModel.swift */; };
+		9309714223E6233C00F7B1ED /* ComicsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9309714123E6233C00F7B1ED /* ComicsUseCase.swift */; };
 		93149D0823E4D9BB00FFA459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93149D0723E4D9BB00FFA459 /* AppDelegate.swift */; };
 		93149D1123E4D9BE00FFA459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93149D1023E4D9BE00FFA459 /* Assets.xcassets */; };
 		93149D1423E4D9BE00FFA459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93149D1223E4D9BE00FFA459 /* LaunchScreen.storyboard */; };
@@ -65,6 +67,8 @@
 /* Begin PBXFileReference section */
 		1E7975A0580CF86F6F48DEA6 /* Pods_Marvel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F7D89902CC8E295B197AD4 /* Pods-Marvel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel.debug.xcconfig"; path = "Target Support Files/Pods-Marvel/Pods-Marvel.debug.xcconfig"; sourceTree = "<group>"; };
+		9309713E23E6223100F7B1ED /* ComicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ComicViewModel.swift; path = Common/MarvelDomain/MarvelDomain/Repositories/ComicViewModel.swift; sourceTree = SOURCE_ROOT; };
+		9309714123E6233C00F7B1ED /* ComicsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsUseCase.swift; sourceTree = "<group>"; };
 		93149D0423E4D9BB00FFA459 /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93149D0723E4D9BB00FFA459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93149D1023E4D9BE00FFA459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,6 +143,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9309714023E6232A00F7B1ED /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+				9309714123E6233C00F7B1ED /* ComicsUseCase.swift */,
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
 		93149CFB23E4D9BB00FFA459 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				936DD07B23E5B17000C346CA /* Foundation */,
+				9309714023E6232A00F7B1ED /* Use Cases */,
 				934780D823E4DAFC00C96A6C /* Scenes */,
 			);
 			path = Classes;
@@ -240,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				936DD06D23E5AEBA00C346CA /* ComicsViewModel.swift */,
+				9309713E23E6223100F7B1ED /* ComicViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -498,8 +512,10 @@
 				936DD07A23E5AF0700C346CA /* CoverViewController.swift in Sources */,
 				936DD06E23E5AEBA00C346CA /* ComicsViewModel.swift in Sources */,
 				936DD07423E5AEE900C346CA /* ComicDetailViewModel.swift in Sources */,
+				9309714223E6233C00F7B1ED /* ComicsUseCase.swift in Sources */,
 				936DD07023E5AECE00C346CA /* ComicDetailViewController.swift in Sources */,
 				936DD08023E5B1CA00C346CA /* BaseNavigationController.swift in Sources */,
+				9309713F23E6223100F7B1ED /* ComicViewModel.swift in Sources */,
 				936DD07E23E5B1B600C346CA /* BaseViewController.swift in Sources */,
 				93149D0823E4D9BB00FFA459 /* AppDelegate.swift in Sources */,
 				936DD07823E5AEFE00C346CA /* CoverViewModel.swift in Sources */,

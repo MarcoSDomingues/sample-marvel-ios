@@ -13,7 +13,7 @@ public struct Comic {
     public let id: Int?
     public let title: String?
     public let description: String?
-    public let issueNumber: Double?
+    public let issueNumber: Int?
     
     public let pageCount: Int?
     public let price: Double?
@@ -21,7 +21,7 @@ public struct Comic {
     public let thumbnail: Thumbnail?
     public let characters: [CharacterRequest]
     
-    public init(id: Int?, title: String?, description: String?, issueNumber: Double?, pageCount: Int?, price: Double?, thumbnail: Thumbnail?, characters: [CharacterRequest]) {
+    public init(id: Int?, title: String?, description: String?, issueNumber: Int?, pageCount: Int?, price: Double?, thumbnail: Thumbnail?, characters: [CharacterRequest]) {
         self.id = id
         self.title = title
         self.description = description

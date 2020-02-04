@@ -10,10 +10,10 @@ import Foundation
 
 public struct CharacterRequest {
     
-    public let name: String
-    public let resource: String
+    public let name: String?
+    public let resource: String?
     
-    public init(name: String, resource: String) {
+    public init(name: String?, resource: String?) {
         self.name = name
         self.resource = resource
     }
