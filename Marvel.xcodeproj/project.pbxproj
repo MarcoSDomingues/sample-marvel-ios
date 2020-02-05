@@ -196,11 +196,10 @@
 		931E797023EA2EA20068688E /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				931E798323EA46AA0068688E /* List Content */,
+				936DD07C23E5B19C00C346CA /* Base View Controllers */,
 				931E797123EA2EAD0068688E /* ErrorTracker.swift */,
 				931E797323EA2EBC0068688E /* ActivityIndicator.swift */,
-				931E797523EA34EC0068688E /* ListSectionManager.swift */,
-				931E797723EA350E0068688E /* ListContentContext.swift */,
-				931E797923EA360A0068688E /* ListContentManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -222,6 +221,16 @@
 			path = "List Managers";
 			sourceTree = "<group>";
 		};
+		931E798323EA46AA0068688E /* List Content */ = {
+			isa = PBXGroup;
+			children = (
+				931E797523EA34EC0068688E /* ListSectionManager.swift */,
+				931E797723EA350E0068688E /* ListContentContext.swift */,
+				931E797923EA360A0068688E /* ListContentManager.swift */,
+			);
+			path = "List Content";
+			sourceTree = "<group>";
+		};
 		934780D623E4DAED00C96A6C /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,7 +242,8 @@
 		934780D723E4DAF300C96A6C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				936DD07B23E5B17000C346CA /* Foundation */,
+				931E797B23EA37CA0068688E /* Extensions */,
+				931E797023EA2EA20068688E /* Utilities */,
 				9309714023E6232A00F7B1ED /* Use Cases */,
 				934780D823E4DAFC00C96A6C /* Scenes */,
 			);
@@ -338,22 +348,12 @@
 			path = "View Models";
 			sourceTree = "<group>";
 		};
-		936DD07B23E5B17000C346CA /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				931E797B23EA37CA0068688E /* Extensions */,
-				931E797023EA2EA20068688E /* Utilities */,
-				936DD07C23E5B19C00C346CA /* View Controllers */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		936DD07C23E5B19C00C346CA /* View Controllers */ = {
+		936DD07C23E5B19C00C346CA /* Base View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				936DD07F23E5B1CA00C346CA /* BaseNavigationController.swift */,
 			);
-			path = "View Controllers";
+			path = "Base View Controllers";
 			sourceTree = "<group>";
 		};
 		939F07AF23E58EE60057AD11 /* MarvelUITests */ = {
