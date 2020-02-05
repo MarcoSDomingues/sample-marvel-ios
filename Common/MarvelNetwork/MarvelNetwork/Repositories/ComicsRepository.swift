@@ -38,9 +38,15 @@ final public class ComicsRepository: ComicsRepositoryType {
     }
     
     public init() {
-        self.host = "https://gateway.marvel.com"
-        self.publicKey = "e71939ba2d93c78047908a73192b57c9"
-        self.privateKey = "fbfe5951a86b6fad3577bdfdb302738f4ae2e3bc"
+        let bundle = Bundle(for: type(of: self))
+        let plistPath = bundle.path(forResource: "Config", ofType: "plist")!
+        let plistData = FileManager.default.contents(atPath: plistPath)!
+        
+        let keyData = try! PropertyListSerialization.propertyList(from: plistData, options: .mutableContainersAndLeaves, format: nil) as! Dictionary<String, Any>
+        
+        self.host = keyData["host"] as! String
+        self.publicKey = keyData["publicKey"] as! String
+        self.privateKey = keyData["privateKey"] as! String
     }
     
     // MARK: - ComicsRepositoryType

@@ -3,8 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>host</key>
-	<string>https://gateway.marvel.com:443/v1/public</string>
-	<key>api-key</key>
+	<string>https://gateway.marvel.com</string>
+	<key>publicKey</key>
 	<string>e71939ba2d93c78047908a73192b57c9</string>
+	<key>privateKey</key>
+	<string>fbfe5951a86b6fad3577bdfdb302738f4ae2e3bc</string>
 </dict>
 </plist>
