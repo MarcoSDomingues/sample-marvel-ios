@@ -19,11 +19,19 @@ struct ComicsViewModel {
     
     // MARK: - Outputs
     
+    let errors: Driver<Error>
+    let isLoading: Driver<Bool>
     let comics: Driver<[ComicViewModel]>
     
-    // MARK: - Ini
+    // MARK: - Ininitialization
     
     init(useCase: ComicsUseCaseType = ComicsUseCase()) {
+        
+        let errorTracker = ErrorTracker()
+        self.errors = errorTracker.asDriver()
+        
+        let activityIndicator = ActivityIndicator()
+        self.isLoading = activityIndicator.asDriver()
         
         let _offset = PublishSubject<Int>()
         self.offset = _offset.asObserver()
@@ -32,6 +40,8 @@ struct ComicsViewModel {
             .startWith(0)
             .flatMapLatest({ offset in
                 useCase.getComics(with: offset)
+                    .trackActivity(activityIndicator)
+                    .trackError(errorTracker)
             })
             .map { $0.map { ComicViewModel(comic: $0) } }
             .asDriver(onErrorJustReturn: [])
