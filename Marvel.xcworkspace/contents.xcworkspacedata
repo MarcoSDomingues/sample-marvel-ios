@@ -5,9 +5,6 @@
       location = "group:Marvel.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Common/MarvelUIKit/MarvelUIKit.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Common/MarvelDomain/MarvelDomain.xcodeproj">
    </FileRef>
    <FileRef

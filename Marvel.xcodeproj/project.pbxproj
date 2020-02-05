@@ -24,8 +24,6 @@
 		936DD03223E591B100C346CA /* MarvelDomain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 936DD03023E591B100C346CA /* MarvelDomain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		936DD06223E5955900C346CA /* MarvelNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936DD06023E5955900C346CA /* MarvelNetwork.framework */; };
 		936DD06323E5955900C346CA /* MarvelNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 936DD06023E5955900C346CA /* MarvelNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		936DD06423E5955900C346CA /* MarvelUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936DD06123E5955900C346CA /* MarvelUIKit.framework */; };
-		936DD06523E5955900C346CA /* MarvelUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 936DD06123E5955900C346CA /* MarvelUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		936DD06C23E5AEAC00C346CA /* ComicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936DD06B23E5AEAC00C346CA /* ComicsViewController.swift */; };
 		936DD06E23E5AEBA00C346CA /* ComicsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936DD06D23E5AEBA00C346CA /* ComicsViewModel.swift */; };
 		936DD07023E5AECE00C346CA /* ComicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936DD06F23E5AECD00C346CA /* ComicDetailViewController.swift */; };
@@ -62,7 +60,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				936DD06523E5955900C346CA /* MarvelUIKit.framework in Embed Frameworks */,
 				936DD06323E5955900C346CA /* MarvelNetwork.framework in Embed Frameworks */,
 				936DD03223E591B100C346CA /* MarvelDomain.framework in Embed Frameworks */,
 			);
@@ -115,7 +112,6 @@
 			files = (
 				936DD06223E5955900C346CA /* MarvelNetwork.framework in Frameworks */,
 				A8ACCEA84D5BDE6150AE8F32 /* Pods_Marvel.framework in Frameworks */,
-				936DD06423E5955900C346CA /* MarvelUIKit.framework in Frameworks */,
 				936DD03123E591B100C346CA /* MarvelDomain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
