@@ -20,6 +20,10 @@ struct ListContentContext<T: ListContentManager> {
         return contentManager.managedCollectionView
     }
     
+    var layout: UICollectionViewLayout {
+        return contentManager.managedCollectionView.collectionViewLayout
+    }
+    
     func dequeueReusableCell(withReuseIdentifier identifier: String, for index: Int) -> UICollectionViewCell {
         let indexPath = IndexPath(item: index, section: sectionIndex)
         return contentManager.managedCollectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath)

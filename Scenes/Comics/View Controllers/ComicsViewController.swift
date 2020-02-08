@@ -118,6 +118,10 @@ class ComicsViewController: UIViewController {
         let ac = UIAlertController(title: "Error",
                                    message: error.localizedDescription,
                                    preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "Ok", style: .default)
+        ac.addAction(okAction)
+        
         present(ac, animated: true)
     }
     

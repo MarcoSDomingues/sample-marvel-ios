@@ -16,12 +16,21 @@ final class ComicsSectionManager: ListSectionManager {
         }
     }
     
+    private let numberOfColumns: Int = 3
+    
+    private var minimumInteritemSpacing: CGFloat {
+        guard let layout = contentContext.layout as? UICollectionViewFlowLayout else {
+            return 0.0
+        }
+        return layout.minimumInteritemSpacing
+    }
+    
     // MARK: - ListSectionManager
     
     var contentContext: ListContentContext<ListContentManager>!
     
     func registerReuseIdentifiers(in collectionView: UICollectionView) {
-        UICollectionViewCell.register(in: collectionView)
+        ComicCollectionViewCell.register(in: collectionView)
     }
     
     func sectionInset() -> UIEdgeInsets {
@@ -34,13 +43,15 @@ final class ComicsSectionManager: ListSectionManager {
     
     func sizeForItemAt(_ index: Int) -> CGSize {
         let insets = sectionInset()
-        let width = contentContext.collectionView.bounds.width - (insets.left + insets.right)
-        return CGSize(width: width, height: 200)
+        var width = contentContext.collectionView.bounds.width - (insets.left + insets.right)
+        width -= (CGFloat(numberOfColumns - 1) * minimumInteritemSpacing)
+        let itemWidth = width / CGFloat(numberOfColumns)
+        return CGSize(width: itemWidth, height: 200)
     }
     
     func cellForItemAt(_ index: Int) -> UICollectionViewCell {
-        let cell = contentContext.dequeueReusableCell(for: index)
-        cell.backgroundColor = .white
+        let cell = contentContext.dequeueReusableCell(for: index) as ComicCollectionViewCell
+        cell.item = comics[index]
         return cell
     }
     
