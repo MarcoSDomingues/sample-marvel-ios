@@ -85,7 +85,7 @@ class ComicsViewController: UIViewController {
     private func setupBindings() {
         viewModel.comics
             .drive(onNext: { [weak self] comics in
-                self?.contentManager.comics = comics
+                self?.contentManager.comics.append(contentsOf: comics)
                 self?.activityIndicatorView.stopAnimating()
             })
             .disposed(by: disposeBag)
@@ -105,9 +105,24 @@ class ComicsViewController: UIViewController {
                 if contentManager.comics.isEmpty {
                     self?.activityIndicatorView.startAnimating()
                 } else {
-                    // TODO: Implement me
+                    contentManager.isLoading = true
                 }
             })
+            .disposed(by: disposeBag)
+        
+        collectionView.rx.willEndDragging
+            .filter({ [weak self] velocity, targetContentOffset in
+                guard let collectionView = self?.collectionView else {
+                    return false
+                }
+                
+                let distance = collectionView.contentSize.height - (targetContentOffset.pointee.y + collectionView.bounds.height)
+                return distance < 200
+            })
+            .map ({ [weak self] _ in self?.contentManager.comics.count })
+            .filter ({ $0 != nil })
+            .map { $0! }
+            .bind(to: viewModel.offset)
             .disposed(by: disposeBag)
     }
     

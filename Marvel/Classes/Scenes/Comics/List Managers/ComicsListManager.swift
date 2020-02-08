@@ -16,20 +16,31 @@ final class ComicsListManager: ListContentManager {
         get {
             comicsSection.comics
         } set {
+            isLoading = false
             comicsSection.comics = newValue
         }
     }
     
+    public var isLoading: Bool {
+        get {
+            return loadingSection.isLoading
+        } set {
+            loadingSection.isLoading = newValue
+        }
+    }
+    
     private var comicsSection: ComicsSectionManager
+    private var loadingSection: LoadingSectionManager
     
     // MARK: - Initialization
     
     init(columns: Int) {
         comicsSection = ComicsSectionManager(columns: columns)
+        loadingSection = LoadingSectionManager()
         
         super.init()
         
-        sections = [comicsSection]
+        sections = [comicsSection, loadingSection]
     }
     
 }

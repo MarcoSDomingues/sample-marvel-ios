@@ -43,13 +43,14 @@ struct ComicsViewModel {
         
         self.comics = _offset.asObservable()
             .startWith(0)
+            .distinctUntilChanged()
             .flatMapLatest({ offset in
                 useCase.getComics(with: offset, limit: limit)
                     .trackActivity(activityIndicator)
                     .trackError(errorTracker)
             })
             .map { $0.map { ComicViewModel(comic: $0) } }
-            .asDriver(onErrorJustReturn: [])
+            .asDriverOnErrorJustComplete()
     }
     
 }
