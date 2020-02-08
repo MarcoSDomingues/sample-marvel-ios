@@ -27,7 +27,7 @@ struct ComicViewModel {
         self.price = comic.price
         
         if let thumbnail = comic.thumbnail, let path = thumbnail.path, let ext = thumbnail.ext {
-            self.coverURLString = path + "." + ext
+            self.coverURLString = NSString(string: path).appendingPathExtension(ext)
         } else {
             self.coverURLString = nil
         }

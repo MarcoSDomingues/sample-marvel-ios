@@ -11,6 +11,7 @@ target 'Marvel' do
   project 'Marvel.xcodeproj'
 
   # Pods for Marvel
+  pod 'Nuke'
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
 

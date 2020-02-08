@@ -10,13 +10,16 @@ import UIKit
 
 final class ComicsSectionManager: ListSectionManager {
     
+    enum Constants {
+        static let margin: CGFloat = 12.0
+        static let numberOfColumns: Int = 3
+    }
+    
     var comics: [ComicViewModel] = [] {
         didSet {
             contentContext.reload()
         }
     }
-    
-    private let numberOfColumns: Int = 3
     
     private var minimumInteritemSpacing: CGFloat {
         guard let layout = contentContext.layout as? UICollectionViewFlowLayout else {
@@ -34,7 +37,8 @@ final class ComicsSectionManager: ListSectionManager {
     }
     
     func sectionInset() -> UIEdgeInsets {
-        return .zero
+        let margin = Constants.margin
+        return UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
     }
     
     func numberOfItems() -> Int {
@@ -43,9 +47,10 @@ final class ComicsSectionManager: ListSectionManager {
     
     func sizeForItemAt(_ index: Int) -> CGSize {
         let insets = sectionInset()
+        let columns = CGFloat(Constants.numberOfColumns)
         var width = contentContext.collectionView.bounds.width - (insets.left + insets.right)
-        width -= (CGFloat(numberOfColumns - 1) * minimumInteritemSpacing)
-        let itemWidth = width / CGFloat(numberOfColumns)
+        width -= (columns - 1) * minimumInteritemSpacing
+        let itemWidth = width / columns
         return CGSize(width: itemWidth, height: 200)
     }
     

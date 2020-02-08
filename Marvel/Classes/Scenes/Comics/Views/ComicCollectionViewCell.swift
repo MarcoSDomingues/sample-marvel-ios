@@ -46,6 +46,11 @@ class ComicCollectionViewCell: UICollectionViewCell {
         addSubview(imageView)
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        imageView.image = nil
+    }
+    
     // MARK: - Layout
     
     override func layoutSubviews() {
@@ -56,19 +61,12 @@ class ComicCollectionViewCell: UICollectionViewCell {
     // MARK: - Bindings
     
     private func bindViewModel(_ viewModel: ComicViewModel) {
-        guard let coverURLString = viewModel.coverURLString else {
-            return
+        guard let coverURLString = viewModel.coverURLString,
+            let url = URL(string: coverURLString) else {
+                return
         }
         
-        let request = URLRequest(url: URL(string: coverURLString)!)
-        URLSession.shared.dataTask(with: request) { [weak self] (data, _, error) in
-            
-            if let data = data {
-                DispatchQueue.main.async {
-                    self?.imageView.image = UIImage(data: data)
-                }
-            }
-        }.resume()
+        imageView.loadImage(withURL: url)
     }
     
 }
