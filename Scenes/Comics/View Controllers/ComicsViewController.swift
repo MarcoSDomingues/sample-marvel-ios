@@ -33,10 +33,9 @@ class ComicsViewController: UIViewController {
     
     // MARK: - Initialization
     
-    init(viewModel: ComicsViewModel = ComicsViewModel(),
-         listManager: ComicsListManager = ComicsListManager()) {
+    init(viewModel: ComicsViewModel = ComicsViewModel()) {
         self.viewModel = viewModel
-        self.contentManager = listManager
+        self.contentManager = ComicsListManager(columns: viewModel.numberOfColumns)
         super.init(nibName: nil, bundle: nil)
     }
     

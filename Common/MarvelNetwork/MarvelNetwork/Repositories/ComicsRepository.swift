@@ -51,7 +51,7 @@ final public class ComicsRepository: ComicsRepositoryType {
     
     // MARK: - ComicsRepositoryType
     
-    public func getComics(with offset: Int, completionBlock: @escaping (Result<[Comic], Error>) -> Void) {
+    public func getComics(with offset: Int, limit: Int, completionBlock: @escaping (Result<[Comic], Error>) -> Void) {
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             
             if let error = error {

@@ -9,5 +9,5 @@
 import Foundation
 
 public protocol ComicsRepositoryType {
-    func getComics(with offset: Int, completionBlock: @escaping (Result<[Comic], Error>) -> Void)
+    func getComics(with offset: Int, limit: Int, completionBlock: @escaping (Result<[Comic], Error>) -> Void)
 }

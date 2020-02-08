@@ -24,8 +24,8 @@ final class ComicsListManager: ListContentManager {
     
     // MARK: - Initialization
     
-    override init() {
-        comicsSection = ComicsSectionManager()
+    init(columns: Int) {
+        comicsSection = ComicsSectionManager(columns: columns)
         
         super.init()
         

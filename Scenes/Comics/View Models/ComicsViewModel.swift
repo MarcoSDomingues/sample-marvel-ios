@@ -13,6 +13,8 @@ import MarvelDomain
 
 struct ComicsViewModel {
     
+    let numberOfColumns: Int
+    
     // MARK: - Inputs
     
     let offset: AnyObserver<Int>
@@ -25,7 +27,8 @@ struct ComicsViewModel {
     
     // MARK: - Ininitialization
     
-    init(useCase: ComicsUseCaseType = ComicsUseCase()) {
+    init(useCase: ComicsUseCaseType = ComicsUseCase(), numberOfColumns: Int = 3) {
+        self.numberOfColumns = numberOfColumns
         
         let errorTracker = ErrorTracker()
         self.errors = errorTracker.asDriver()
@@ -36,10 +39,12 @@ struct ComicsViewModel {
         let _offset = PublishSubject<Int>()
         self.offset = _offset.asObserver()
         
+        let limit = numberOfColumns * 6
+        
         self.comics = _offset.asObservable()
             .startWith(0)
             .flatMapLatest({ offset in
-                useCase.getComics(with: offset)
+                useCase.getComics(with: offset, limit: limit)
                     .trackActivity(activityIndicator)
                     .trackError(errorTracker)
             })

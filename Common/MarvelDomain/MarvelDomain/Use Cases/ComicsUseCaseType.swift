@@ -10,5 +10,5 @@ import RxSwift
 import Foundation
 
 public protocol ComicsUseCaseType {
-    func getComics(with offset: Int) -> Single<[Comic]>
+    func getComics(with offset: Int, limit: Int) -> Single<[Comic]>
 }

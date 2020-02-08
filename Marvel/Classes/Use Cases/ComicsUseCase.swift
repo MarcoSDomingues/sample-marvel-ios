@@ -20,10 +20,10 @@ final class ComicsUseCase: ComicsUseCaseType {
     
     // MARK: - ComicsUseCaseType
     
-    func getComics(with offset: Int) -> Single<[Comic]> {
+    func getComics(with offset: Int, limit: Int) -> Single<[Comic]> {
         return Single.create { [weak self] single in
             
-            self?.repository.getComics(with: offset) { result in
+            self?.repository.getComics(with: offset, limit: limit) { result in
                 
                 switch result {
                 case .success(let results):
