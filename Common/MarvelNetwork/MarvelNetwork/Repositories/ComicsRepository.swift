@@ -52,6 +52,15 @@ final public class ComicsRepository: ComicsRepositoryType {
     // MARK: - ComicsRepositoryType
     
     public func getComics(with offset: Int, limit: Int, completionBlock: @escaping (Result<[Comic], Error>) -> Void) {
+        
+        let queryItems: [URLQueryItem] = [
+            URLQueryItem(name: "limit", value: "\(limit)"),
+            URLQueryItem(name: "offset", value: "\(offset)"),
+            URLQueryItem(name: "orderBy", value: "-modified")
+        ]
+        
+        let request = self.request.adding(queryItems: queryItems)
+        
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             
             if let error = error {

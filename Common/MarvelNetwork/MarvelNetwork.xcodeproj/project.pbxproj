@@ -23,6 +23,7 @@
 		9390E85923E9C3D00012988C /* Comic+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390E85823E9C3D00012988C /* Comic+Transform.swift */; };
 		9390E85B23E9C5440012988C /* Thumbnail+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390E85A23E9C5440012988C /* Thumbnail+Transform.swift */; };
 		9390E85D23E9C5B20012988C /* CharacterRequest+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390E85C23E9C5B20012988C /* CharacterRequest+Transform.swift */; };
+		93D74E8823EEFDA80050F443 /* URLRequest+QueryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D74E8723EEFDA80050F443 /* URLRequest+QueryItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,7 @@
 		9390E85823E9C3D00012988C /* Comic+Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comic+Transform.swift"; sourceTree = "<group>"; };
 		9390E85A23E9C5440012988C /* Thumbnail+Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thumbnail+Transform.swift"; sourceTree = "<group>"; };
 		9390E85C23E9C5B20012988C /* CharacterRequest+Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterRequest+Transform.swift"; sourceTree = "<group>"; };
+		93D74E8723EEFDA80050F443 /* URLRequest+QueryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+QueryItems.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				931E795D23EA09E20068688E /* String+md5.swift */,
+				93D74E8723EEFDA80050F443 /* URLRequest+QueryItems.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				9309714723E6F4C700F7B1ED /* ComicsResponseModel.swift in Sources */,
 				9309714523E6D41300F7B1ED /* ComicsRepository.swift in Sources */,
 				931E796A23EA12730068688E /* ComicsDataModel.swift in Sources */,
+				93D74E8823EEFDA80050F443 /* URLRequest+QueryItems.swift in Sources */,
 				9390E85D23E9C5B20012988C /* CharacterRequest+Transform.swift in Sources */,
 				931E796023EA12140068688E /* ComicModel.swift in Sources */,
 				9390E85B23E9C5440012988C /* Thumbnail+Transform.swift in Sources */,
