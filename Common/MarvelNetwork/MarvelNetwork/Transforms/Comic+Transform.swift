@@ -14,7 +14,6 @@ internal extension ComicModel {
         return Comic(id: self.id,
                      title: self.title,
                      description: self.description,
-                     issueNumber: self.issueNumber,
                      pageCount: self.pageCount,
                      price: self.prices?.first?.price,
                      thumbnail: self.thumbnail?.asThumbnail(),

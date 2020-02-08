@@ -12,7 +12,6 @@ internal struct ComicModel: Codable {
     
     internal let id: Int?
     internal let title: String?
-    internal let issueNumber: Int?
     internal let description: String?
     internal let pageCount: Int?
     
