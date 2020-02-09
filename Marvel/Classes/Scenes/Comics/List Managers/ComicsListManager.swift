@@ -8,9 +8,15 @@
 
 import UIKit
 
+protocol ComicsListManagerDelegate: class {
+    func didSelectComic(_ comic: ComicViewModel)
+}
+
 final class ComicsListManager: ListContentManager {
     
     // MARK: - Properties
+    
+    weak var delegate: ComicsListManagerDelegate?
     
     public var comics: [ComicViewModel] {
         get {
@@ -34,13 +40,18 @@ final class ComicsListManager: ListContentManager {
     
     // MARK: - Initialization
     
-    init(columns: Int) {
-        comicsSection = ComicsSectionManager(columns: columns)
+    init(columns: Int, delegate: ComicsListManagerDelegate? = nil) {
+        self.delegate = delegate
         loadingSection = LoadingSectionManager()
+        comicsSection = ComicsSectionManager(columns: columns)
         
         super.init()
         
         sections = [comicsSection, loadingSection]
+        
+        comicsSection.onSelectionActionBlock = { [weak self] in
+            self?.delegate?.didSelectComic($0)
+        }
     }
     
 }

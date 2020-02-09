@@ -19,6 +19,9 @@ final class ComicsSectionManager: ListSectionManager {
     
     let columns: Int
     
+    typealias SelectionActionBlock = (ComicViewModel) -> Void
+    var onSelectionActionBlock: SelectionActionBlock?
+    
     var comics: [ComicViewModel] = [] {
         didSet {
             contentContext.reload()
@@ -75,7 +78,9 @@ final class ComicsSectionManager: ListSectionManager {
         return true
     }
     
-    func didSelectItemAt(_ index: Int) {}
+    func didSelectItemAt(_ index: Int) {
+        onSelectionActionBlock?(comics[index])
+    }
     
     func didDeselectItemAt(_ index: Int) {}
     

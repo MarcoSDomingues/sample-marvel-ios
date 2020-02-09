@@ -51,6 +51,7 @@ class ComicsViewController: UIViewController {
         view.addSubview(collectionView)
         view.addSubview(activityIndicatorView)
         
+        contentManager.delegate = self
         contentManager.managedCollectionView = collectionView
         collectionView.backgroundColor = #colorLiteral(red: 0.2605174184, green: 0.2605243921, blue: 0.260520637, alpha: 1)
         
@@ -137,6 +138,17 @@ class ComicsViewController: UIViewController {
         ac.addAction(okAction)
         
         present(ac, animated: true)
+    }
+    
+}
+
+extension ComicsViewController: ComicsListManagerDelegate {
+    
+    func didSelectComic(_ comic: ComicViewModel) {
+        let vc = ComicDetailViewController()
+        let navVc = BaseNavigationController(rootViewController: vc)
+        navVc.modalPresentationStyle = .fullScreen
+        present(navVc, animated: true)
     }
     
 }
