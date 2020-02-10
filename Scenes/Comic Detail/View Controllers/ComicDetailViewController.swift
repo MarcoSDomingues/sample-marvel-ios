@@ -43,6 +43,7 @@ class ComicDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        contentManager.delegate = self
         contentManager.managedCollectionView = collectionView
         
         addCloseButton()
@@ -72,6 +73,18 @@ class ComicDetailViewController: UIViewController {
     
     @objc private func onCloseAction() {
         dismiss(animated: true)
+    }
+    
+}
+
+extension ComicDetailViewController: ComicDetailListManagerDelegate {
+    
+    func didSelectCover(_ comic: ComicViewModel) {
+        let viewModel = CoverViewModel(comic: comic)
+        let vc = CoverViewController(viewModel: viewModel)
+        let navVc = UINavigationController(rootViewController: vc)
+        navVc.modalPresentationStyle = .fullScreen
+        present(navVc, animated: true)
     }
     
 }

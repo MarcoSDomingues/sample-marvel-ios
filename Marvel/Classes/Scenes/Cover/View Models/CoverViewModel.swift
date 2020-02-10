@@ -10,4 +10,14 @@ import Foundation
 
 struct CoverViewModel {
     
+    // MARK: - Properties
+    
+    let coverUrlString: String?
+    
+    // MARK: - Ininitialization
+    
+    init(comic: ComicViewModel) {
+        self.coverUrlString = comic.coverURLString
+    }
+    
 }
