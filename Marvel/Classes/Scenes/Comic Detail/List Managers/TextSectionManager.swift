@@ -1,32 +1,18 @@
 //
-//  ComicDescriptionSectionManager.swift
+//  TextSectionManager.swift
 //  Marvel
 //
-//  Created by Marco Domingues on 09/02/2020.
+//  Created by Marco Domingues on 10/02/2020.
 //  Copyright © 2020 Marco. All rights reserved.
 //
 
 import UIKit
 
-final class ComicDescriptionSectionManager: ListSectionManager {
-    
-    enum Constants {
-        static let attributes: [NSAttributedString.Key: Any] = [
-            .foregroundColor: UIColor.white,
-            .font: UIFont.systemFont(ofSize: 14)
-        ]
-    }
+final class TextSectionManager: ListSectionManager {
     
     // MARK: - Properties
     
-    var comic: ComicViewModel {
-        didSet {
-            let attributes = Constants.attributes
-            textModel = TextViewModel(text: comic.description, attributes: attributes)
-        }
-    }
-    
-    private var textModel: TextViewModel {
+    var textModel: TextViewModel {
         didSet {
             contentContext.reload()
         }
@@ -34,10 +20,8 @@ final class ComicDescriptionSectionManager: ListSectionManager {
     
     // MARK: - Initialization
     
-    init(comic: ComicViewModel) {
-        self.comic = comic
-        let attributes = Constants.attributes
-        self.textModel = TextViewModel(text: comic.description, attributes: attributes)
+    init(textModel: TextViewModel) {
+        self.textModel = textModel
     }
     
     // MARK: - ListSectionManager
@@ -61,7 +45,7 @@ final class ComicDescriptionSectionManager: ListSectionManager {
         let width = contentContext.collectionView.bounds.width - (insets.left + insets.right)
         let height = TextCollectionViewCell.textHeight(textModel.text,
                                                        width: width,
-                                                       attributes: Constants.attributes)
+                                                       attributes: textModel.attributes)
         return CGSize(width: width, height: height)
     }
     

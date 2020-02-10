@@ -14,6 +14,17 @@ protocol ComicDetailListManagerDelegate: class {
 
 final class ComicDetailListManager: ListContentManager {
     
+    enum Constants {
+        static let titleAttributes: [NSAttributedString.Key: Any] = [
+            .foregroundColor: UIColor.white,
+            .font: UIFont.boldSystemFont(ofSize: 26)
+        ]
+        static let descriptionAttributes: [NSAttributedString.Key: Any] = [
+            .foregroundColor: UIColor.white,
+            .font: UIFont.systemFont(ofSize: 14)
+        ]
+    }
+    
     // MARK: - Properties
     
     weak var delegate: ComicDetailListManagerDelegate?
@@ -23,22 +34,31 @@ final class ComicDetailListManager: ListContentManager {
             coverSection.comic
         } set {
             coverSection.comic = newValue
-            titleSection.comic = newValue
-            descriptionSection.comic = newValue
+            titleSection.textModel = TextViewModel(text: comic.title,
+                                                   attributes: Constants.descriptionAttributes)
+            descriptionSection.textModel = TextViewModel(text: comic.description,
+                                                         attributes: Constants.descriptionAttributes)
+
         }
     }
     
     private var coverSection: ComicCoverSectionManager
-    private var titleSection: ComicTitleSectionManager
-    private var descriptionSection: ComicDescriptionSectionManager
+    private var titleSection: TextSectionManager
+    private var descriptionSection: TextSectionManager
     
     // MARK: - Initialization
     
     init(comic: ComicViewModel, delegate: ComicDetailListManagerDelegate? = nil) {
         self.delegate = delegate
         coverSection = ComicCoverSectionManager(comic: comic)
-        titleSection = ComicTitleSectionManager(comic: comic)
-        descriptionSection = ComicDescriptionSectionManager(comic: comic)
+        
+        let titleModel = TextViewModel(text: comic.title,
+                                       attributes: Constants.titleAttributes)
+        titleSection = TextSectionManager(textModel: titleModel)
+        
+        let descriptionModel = TextViewModel(text: comic.description,
+                                             attributes: Constants.descriptionAttributes)
+        descriptionSection = TextSectionManager(textModel: descriptionModel)
         
         super.init()
         

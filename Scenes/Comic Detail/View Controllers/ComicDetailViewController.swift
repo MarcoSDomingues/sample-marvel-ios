@@ -17,7 +17,6 @@ class ComicDetailViewController: UIViewController {
         let layout = UICollectionViewFlowLayout()
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
         cv.backgroundColor = #colorLiteral(red: 0.2605174184, green: 0.2605243921, blue: 0.260520637, alpha: 1)
-        cv.alwaysBounceVertical = true
         cv.contentInsetAdjustmentBehavior = .never
         return cv
     }()
