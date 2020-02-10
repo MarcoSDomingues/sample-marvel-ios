@@ -10,4 +10,14 @@ import Foundation
 
 struct ComicDetailViewModel {
     
+    // MARK: - Properties
+    
+    let comic: ComicViewModel
+    
+    // MARK: - Ininitialization
+    
+    init(comic: ComicViewModel) {
+        self.comic = comic
+    }
+    
 }

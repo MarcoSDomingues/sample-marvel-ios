@@ -145,7 +145,8 @@ class ComicsViewController: UIViewController {
 extension ComicsViewController: ComicsListManagerDelegate {
     
     func didSelectComic(_ comic: ComicViewModel) {
-        let vc = ComicDetailViewController()
+        let viewModel = ComicDetailViewModel(comic: comic)
+        let vc = ComicDetailViewController(viewModel: viewModel)
         let navVc = BaseNavigationController(rootViewController: vc)
         navVc.modalPresentationStyle = .fullScreen
         present(navVc, animated: true)
