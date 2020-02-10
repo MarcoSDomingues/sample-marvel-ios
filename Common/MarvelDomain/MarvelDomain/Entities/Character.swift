@@ -10,4 +10,10 @@ import Foundation
 
 public struct Character {
     
+    public let thumbnail: Thumbnail?
+    
+    init(thumbnail: Thumbnail?) {
+        self.thumbnail = thumbnail
+    }
+    
 }

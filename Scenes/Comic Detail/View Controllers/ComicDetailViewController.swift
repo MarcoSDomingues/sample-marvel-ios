@@ -46,6 +46,7 @@ class ComicDetailViewController: UIViewController {
         contentManager.delegate = self
         contentManager.managedCollectionView = collectionView
         
+        setupBindings()
         addCloseButton()
         view.addSubview(collectionView)
     }
@@ -55,6 +56,26 @@ class ComicDetailViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         collectionView.frame = view.bounds
+    }
+    
+    // MARK: - Bindings
+    
+    private func setupBindings() {
+        viewModel.isLoading
+            .drive(onNext: { [weak self] isLoading in
+                print(isLoading)
+            })
+            .disposed(by: disposeBag)
+        
+        viewModel.errors
+            .drive()
+            .disposed(by: disposeBag)
+        
+        viewModel.characters
+            .drive(onNext: { [weak self] characters in
+                print("🥥 \(characters)")
+            })
+            .disposed(by: disposeBag)
     }
     
     // MARK: - UI

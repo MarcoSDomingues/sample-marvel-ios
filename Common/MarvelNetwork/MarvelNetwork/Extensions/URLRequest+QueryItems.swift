@@ -10,13 +10,24 @@ import Foundation
 
 internal extension URLRequest {
     
-    func adding(queryItems: [URLQueryItem]) -> URLRequest {
+    var components: URLComponents? {
         guard let url = self.url,
-            var components = URLComponents(string: url.absoluteString) else {
-                return self
+            let components = URLComponents(string: url.absoluteString) else {
+                return nil
+        }
+        return components
+    }
+    
+    var queryItems: [URLQueryItem] {
+        return components?.queryItems ?? []
+    }
+    
+    func adding(queryItems: [URLQueryItem]) -> URLRequest {
+        guard var components = self.components else {
+            return self
         }
         
-        let original = components.queryItems ?? []
+        let original = self.queryItems
         components.queryItems = original + queryItems
         
         if let url = components.url {

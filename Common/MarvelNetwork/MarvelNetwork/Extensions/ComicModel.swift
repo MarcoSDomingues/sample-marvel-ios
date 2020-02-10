@@ -20,4 +20,14 @@ internal struct ComicModel: Codable {
     internal let thumbnail: ThumbnailModel?
     internal let characterData: CharacterResponseModel?
     
+    enum CodingKeys: String, CodingKey {
+        case id
+        case title
+        case description
+        case pageCount
+        case prices
+        case thumbnail
+        case characterData = "characters"
+    }
+    
 }

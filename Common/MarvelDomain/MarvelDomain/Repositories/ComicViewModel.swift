@@ -18,6 +18,7 @@ struct ComicViewModel {
     let price: Double?
     let pageCount: Int?
     let coverURLString: String?
+    let characterRequests: [CharacterRequestViewModel]
     
     init(comic: Comic) {
         self.id = comic.id
@@ -25,6 +26,10 @@ struct ComicViewModel {
         self.description = comic.description
         self.pageCount = comic.pageCount
         self.price = comic.price
+        
+        self.characterRequests = comic.characters.map {
+            CharacterRequestViewModel(characterRequest: $0)
+        }
         
         if let thumbnail = comic.thumbnail, let path = thumbnail.path, let ext = thumbnail.ext {
             self.coverURLString = NSString(string: path).appendingPathExtension(ext)
