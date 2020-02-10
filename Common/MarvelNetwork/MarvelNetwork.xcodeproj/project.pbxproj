@@ -19,6 +19,7 @@
 		931E796D23EA134D0068688E /* MarvelDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931E796C23EA134D0068688E /* MarvelDomain.framework */; };
 		931E796E23EA134D0068688E /* MarvelDomain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 931E796C23EA134D0068688E /* MarvelDomain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		935EC98923F1968E0049CDED /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935EC98823F1968E0049CDED /* BaseRepository.swift */; };
+		935EC99223F1A3220049CDED /* CharacterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935EC99123F1A3220049CDED /* CharacterRepository.swift */; };
 		936DD04523E592ED00C346CA /* MarvelNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 936DD04323E592ED00C346CA /* MarvelNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		936DD08423E5D6BD00C346CA /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 936DD08323E5D6BD00C346CA /* Config.plist */; };
 		9390E85923E9C3D00012988C /* Comic+Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9390E85823E9C3D00012988C /* Comic+Transform.swift */; };
@@ -53,6 +54,7 @@
 		931E796923EA12730068688E /* ComicsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ComicsDataModel.swift; path = MarvelNetwork/Extensions/ComicsDataModel.swift; sourceTree = SOURCE_ROOT; };
 		931E796C23EA134D0068688E /* MarvelDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MarvelDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		935EC98823F1968E0049CDED /* BaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepository.swift; sourceTree = "<group>"; };
+		935EC99123F1A3220049CDED /* CharacterRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRepository.swift; sourceTree = "<group>"; };
 		936DD04023E592ED00C346CA /* MarvelNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MarvelNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		936DD04323E592ED00C346CA /* MarvelNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarvelNetwork.h; sourceTree = "<group>"; };
 		936DD04423E592ED00C346CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				935EC98A23F1989B0049CDED /* Base */,
 				9309714423E6D41300F7B1ED /* ComicsRepository.swift */,
+				935EC99123F1A3220049CDED /* CharacterRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				931E795E23EA09E20068688E /* String+md5.swift in Sources */,
 				931E796823EA125C0068688E /* CharacterRequestModel.swift in Sources */,
 				931E796223EA12200068688E /* PriceModel.swift in Sources */,
+				935EC99223F1A3220049CDED /* CharacterRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
