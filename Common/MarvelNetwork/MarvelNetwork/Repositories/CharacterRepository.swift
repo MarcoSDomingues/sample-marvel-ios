@@ -29,15 +29,21 @@ final public class CharacterRepository: BaseRepository, CharacterRepositoryType 
                 return
             }
             
-            if let data = data {
-                print(data)
+            guard let data = data,
+                let jsonData = try? JSONSerialization.jsonObject(with: data),
+                let json = try? JSONSerialization.data(withJSONObject: jsonData),
+                let object = try? JSONDecoder().decode(CharactersResponseModel.self, from: json) else {
+                    completionBlock(.failure(CharactersError.jsonParse))
+                    return
+            }
+            
+            if let character = object.data.results?.first?.asCharacter() {
+                completionBlock(.success(character))
+            } else {
+                completionBlock(.failure(CharactersError.empty))
             }
             
         }.resume()
     }
     
-}
-
-enum CharactersError: Error {
-    case missingResource
 }

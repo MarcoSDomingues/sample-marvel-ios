@@ -38,7 +38,7 @@ final public class ComicsRepository: BaseRepository, ComicsRepositoryType {
                 let jsonData = try? JSONSerialization.jsonObject(with: data),
                 let json = try? JSONSerialization.data(withJSONObject: jsonData),
                 let object = try? JSONDecoder().decode(ComicsResponseModel.self, from: json) else {
-                    completionBlock(.failure(MarvelError.comics))
+                    completionBlock(.failure(ComicsError.jsonParse))
                     return
             }
             
@@ -48,8 +48,4 @@ final public class ComicsRepository: BaseRepository, ComicsRepositoryType {
         }.resume()
     }
 
-}
-
-enum MarvelError: Error {
-    case comics
 }
