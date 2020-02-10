@@ -9,5 +9,8 @@
 import Foundation
 
 internal struct CharacterModel: Codable {
+    
+    internal let name: String?
     internal let thumbnail: ThumbnailModel?
+    
 }

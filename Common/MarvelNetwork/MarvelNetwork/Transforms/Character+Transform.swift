@@ -12,7 +12,8 @@ import MarvelDomain
 internal extension CharacterModel {
     
     func asCharacter() -> Character {
-        return Character(thumbnail: self.thumbnail?.asThumbnail())
+        return Character(name: self.name,
+                         thumbnail: self.thumbnail?.asThumbnail())
     }
     
 }

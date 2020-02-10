@@ -63,7 +63,7 @@ class ComicDetailViewController: UIViewController {
     private func setupBindings() {
         viewModel.isLoading
             .drive(onNext: { [weak self] isLoading in
-                print(isLoading)
+                self?.contentManager.isLoading = isLoading
             })
             .disposed(by: disposeBag)
         
@@ -73,7 +73,7 @@ class ComicDetailViewController: UIViewController {
         
         viewModel.characters
             .drive(onNext: { [weak self] characters in
-                print("🥥 \(characters)")
+                self?.contentManager.characters = characters
             })
             .disposed(by: disposeBag)
     }

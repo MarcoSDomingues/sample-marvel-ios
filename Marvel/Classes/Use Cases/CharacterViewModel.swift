@@ -11,9 +11,12 @@ import MarvelDomain
 
 struct CharacterViewModel {
     
+    let name: String?
     let thumbnailURLString: String?
     
     init(character: Character) {
+        self.name = character.name
+        
         if let thumbnail = character.thumbnail, let path = thumbnail.path, let ext = thumbnail.ext {
             self.thumbnailURLString = NSString(string: path).appendingPathExtension(ext)
         } else {

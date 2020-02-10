@@ -44,8 +44,8 @@ struct ComicDetailViewModel {
             .startWith(charactersRequests)
             .flatMapLatest({ requests in
                 useCase.getCharacters(with: requests)
-                .trackActivity(activityIndicator)
-                .trackError(errorTracker)
+                    .trackActivity(activityIndicator)
+                    .trackError(errorTracker)
             })
             .map { $0.map { CharacterViewModel(character: $0) } }
             .asDriverOnErrorJustComplete()

@@ -42,15 +42,35 @@ final class ComicDetailListManager: ListContentManager {
         }
     }
     
+    public var characters: [CharacterViewModel] {
+        get {
+            return charactersSection.characters
+        } set {
+            charactersSection.characters = newValue
+        }
+    }
+    
+    public var isLoading: Bool {
+        get {
+            return loadingSection.isLoading
+        } set {
+            loadingSection.isLoading = newValue
+        }
+    }
+    
     private var coverSection: ComicCoverSectionManager
     private var titleSection: TextSectionManager
     private var descriptionSection: TextSectionManager
+    private var charactersSection: CharactersSectionManager
+    private var loadingSection: LoadingSectionManager
     
     // MARK: - Initialization
     
     init(comic: ComicViewModel, delegate: ComicDetailListManagerDelegate? = nil) {
         self.delegate = delegate
         coverSection = ComicCoverSectionManager(comic: comic)
+        loadingSection = LoadingSectionManager()
+        charactersSection = CharactersSectionManager()
         
         let titleModel = TextViewModel(text: comic.title,
                                        attributes: Constants.titleAttributes)
@@ -62,7 +82,7 @@ final class ComicDetailListManager: ListContentManager {
         
         super.init()
         
-        sections = [coverSection, titleSection, descriptionSection]
+        sections = [coverSection, titleSection, descriptionSection, loadingSection, charactersSection]
         
         coverSection.onSelectionActionBlock = { [weak self] in
             self?.delegate?.didSelectCover($0)
