@@ -10,6 +10,10 @@ import UIKit
 
 class BaseNavigationController: UINavigationController {
     
+//    override open var preferredStatusBarStyle: UIStatusBarStyle {
+//        return self.topViewController?.preferredStatusBarStyle ?? .lightContent
+//    }
+    
     // MARK: - View Cycle
     
     override func viewDidLoad() {
