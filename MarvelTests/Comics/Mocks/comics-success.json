@@ -1,0 +1,1678 @@
+{
+    "code": 200,
+    "status": "Ok",
+    "copyright": "© 2020 MARVEL",
+    "attributionText": "Data provided by Marvel. © 2020 MARVEL",
+    "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2020 MARVEL</a>",
+    "etag": "619345d22704746fec5f3b5ca032a03a28a5cc13",
+    "data": {
+        "offset": 0,
+        "limit": 18,
+        "total": 46580,
+        "count": 18,
+        "results": [{
+            "id": 28034,
+            "digitalId": 12466,
+            "title": "XXL Eminem/Punisher (2009) #1",
+            "issueNumber": 1,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-10T12:51:29-0500",
+            "isbn": "",
+            "upc": "75960605301800831",
+            "diamondCode": "",
+            "ean": "",
+            "issn": "",
+            "format": "Comic",
+            "pageCount": 16,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/28034",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/issue/28034/xxl_eminempunisher_2009_1?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }, {
+                "type": "reader",
+                "url": "http://marvel.com/digitalcomics/view.htm?iid=12466&utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/8995",
+                "name": "XXL Eminem/Punisher (2009)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2009-06-10T00:00:00-0400"
+            }, {
+                "type": "focDate",
+                "date": "-0001-11-30T00:00:00-0500"
+            }, {
+                "type": "unlimitedDate",
+                "date": "2009-05-05T00:00:00-0400"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 0
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/03/583db71417945",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/03/583db71417945",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/28034/creators",
+                "items": [],
+                "returned": 0
+            },
+            "characters": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/28034/characters",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011354",
+                    "name": "Barracuda"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009515",
+                    "name": "Punisher"
+                }],
+                "returned": 2
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/28034/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/68726",
+                    "name": "Eminem/Punisher (2009) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/156298",
+                    "name": "story from XXL EMINEM/PUNISHER COMIC (2009) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/28034/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 79815,
+            "digitalId": 0,
+            "title": "The Life of Captain Marvel (Hardcover)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:53:24-0500",
+            "isbn": "978-1-302-92122-4",
+            "upc": "",
+            "diamondCode": "AUG191138",
+            "ean": "9781302 921224 52499",
+            "issn": "",
+            "format": "Hardcover",
+            "pageCount": 120,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/79815",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/79815/the_life_of_captain_marvel_hardcover?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/28180",
+                "name": "The Life of Captain Marvel (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-09-23T00:00:00-0400"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 24.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/10/5e3dd2ee50415",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/10/5e3dd2ee50415",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 1,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/79815/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 1
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/79815/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/79815/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/176692",
+                    "name": "cover from THE LIFE OF CAPTAIN MARVEL MARVEL SELECT HC (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/176693",
+                    "name": "story from THE LIFE OF CAPTAIN MARVEL MARVEL SELECT HC (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/79815/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 83800,
+            "digitalId": 0,
+            "title": "Star Wars: Target Vader (Trade Paperback)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:52:42-0500",
+            "isbn": "978-1-302-91858-3",
+            "upc": "",
+            "diamondCode": "OCT191128",
+            "ean": "9781302 918583 51799",
+            "issn": "",
+            "format": "Trade Paperback",
+            "pageCount": 136,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/83800",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/83800/star_wars_target_vader_trade_paperback?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/29556",
+                "name": "Star Wars: Target Vader (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-12-09T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 17.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/80/5e3dd2f506ffc",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/80/5e3dd2f506ffc",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 1,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/83800/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 1
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/83800/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/83800/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/185374",
+                    "name": "cover from STAR WARS: TARGET VADER TPB (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/185375",
+                    "name": "story from STAR WARS: TARGET VADER TPB (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/83800/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 76028,
+            "digitalId": 0,
+            "title": "Star Wars: Doctor Aphra Vol. 7 - A Rogue's End (Trade Paperback)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:51:44-0500",
+            "isbn": "978-1-302-91909-2",
+            "upc": "",
+            "diamondCode": "NOV190978",
+            "ean": "9781302 919092 51799",
+            "issn": "",
+            "format": "Trade Paperback",
+            "pageCount": 144,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/76028",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/76028/star_wars_doctor_aphra_vol_7_-_a_rogues_end_trade_paperback?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/27274",
+                "name": "Star Wars: Doctor Aphra Vol. 7 - A Rogue's End (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-12-16T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 17.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/30/5e3dd3181146e",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/30/5e3dd3181146e",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 1,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76028/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 1
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76028/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76028/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/168924",
+                    "name": "cover from STAR WARS: DOCTOR APHRA VOL. 7 TPB (2020) #7",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/168925",
+                    "name": "story from STAR WARS: DOCTOR APHRA VOL. 7 TPB (2020) #7",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76028/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 81324,
+            "digitalId": 0,
+            "title": "Spider-Man: Miles Morales Omnibus (Hardcover)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:50:19-0500",
+            "isbn": "978-1-302-92288-7",
+            "upc": "",
+            "diamondCode": "AUG191136",
+            "ean": "9781302 922887 59999",
+            "issn": "",
+            "format": "Hardcover",
+            "pageCount": 856,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/81324",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/81324/spider-man_miles_morales_omnibus_hardcover?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/29113",
+                "name": "Spider-Man: Miles Morales Omnibus (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-09-23T00:00:00-0400"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 100
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/50/5e3dd309aad58",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/50/5e3dd309aad58",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 1,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/81324/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 1
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/81324/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/81324/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/180369",
+                    "name": "cover from SPIDER-MAN: MILES MORALES OMNIBUS HC (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/180370",
+                    "name": "story from SPIDER-MAN: MILES MORALES OMNIBUS HC (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/81324/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 78323,
+            "digitalId": 0,
+            "title": "Miles Morales: Great Responsibility (Trade Paperback)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:48:45-0500",
+            "isbn": "978-1-302-92114-9",
+            "upc": "",
+            "diamondCode": "NOV190995",
+            "ean": "9781302 921149 51299",
+            "issn": "2163-6109",
+            "format": "Trade Paperback",
+            "pageCount": 240,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/78323",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/78323/miles_morales_great_responsibility_trade_paperback?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/27935",
+                "name": "Miles Morales: Great Responsibility (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-12-23T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 12.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/c0/5e3dd2e863833",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/c0/5e3dd2e863833",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 1,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78323/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 1
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78323/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78323/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/173658",
+                    "name": "cover from MILES MORALES: GREAT RESPONSIBILITY GN-TPB (2020) #3",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/173659",
+                    "name": "story from MILES MORALES: GREAT RESPONSIBILITY GN-TPB (2020) #3",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78323/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 79986,
+            "digitalId": 0,
+            "title": "Dawn Of X Vol. 1  (Trade Paperback)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:47:33-0500",
+            "isbn": "978-1-302-92156-9",
+            "upc": "",
+            "diamondCode": "NOV190962",
+            "ean": "9781302 921569 52499",
+            "issn": "",
+            "format": "Trade Paperback",
+            "pageCount": 272,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/79986",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/79986/dawn_of_x_vol_1_trade_paperback?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/28219",
+                "name": "Dawn Of X Vol. 1  (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-12-23T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 24.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/5e3dd3025f879",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/e0/5e3dd3025f879",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 3,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/79986/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/13021",
+                    "name": "David Curiel",
+                    "role": "colorist (cover)"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/11947",
+                    "name": "Pepe Larraz",
+                    "role": "inker (cover)"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 3
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/79986/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/79986/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/177041",
+                    "name": "cover from X-MEN: HICKMAN GOLD VOL. 1 TPB (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/177042",
+                    "name": "story from X-MEN: HICKMAN GOLD VOL. 1 TPB (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/79986/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 78584,
+            "digitalId": 0,
+            "title": "Daredevil By Brian Michael Bendis & Alex Maleev Omnibus Vol. 2  (Hardcover)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:45:25-0500",
+            "isbn": "978-1-302-92167-5",
+            "upc": "",
+            "diamondCode": "JUL191089",
+            "ean": "9781302 921675 59999",
+            "issn": "",
+            "format": "Hardcover",
+            "pageCount": 656,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/78584",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/78584/daredevil_by_brian_michael_bendis_alex_maleev_omnibus_vol_2_hardcover?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/28015",
+                "name": "Daredevil By Brian Michael Bendis & Alex Maleev Omnibus Vol. 2  (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-09-23T00:00:00-0400"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 100
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/f0/5e3dd33799a63",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78584/creators",
+                "items": [],
+                "returned": 0
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78584/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78584/stories",
+                "items": [],
+                "returned": 0
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78584/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 78065,
+            "digitalId": 0,
+            "title": "Black Widow Epic Collection: Beware the Black Widow (Trade Paperback)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:44:32-0500",
+            "isbn": "978-1-302-92126-2",
+            "upc": "",
+            "diamondCode": "NOV190985",
+            "ean": "9781302 921262 53999",
+            "issn": "",
+            "format": "Trade Paperback",
+            "pageCount": 408,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/78065",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/78065/black_widow_epic_collection_beware_the_black_widow_trade_paperback?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/27900",
+                "name": "Black Widow Epic Collection: Beware the Black Widow (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-12-23T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 39.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/10/5e3dd2e20b088",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/10/5e3dd2e20b088",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78065/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/442",
+                    "name": "Dean White",
+                    "role": "colorist (cover)"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 2
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78065/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78065/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/173133",
+                    "name": "cover from BLACK WIDOW EPIC COLLECTION: BEWARE THE BLACK WIDOW TPB (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/173134",
+                    "name": "story from BLACK WIDOW EPIC COLLECTION: BEWARE THE BLACK WIDOW TPB (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/78065/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 76252,
+            "digitalId": 0,
+            "title": "Black Panther: Visions Of Wakanda (Hardcover)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:43:30-0500",
+            "isbn": "978-1-302-91938-2",
+            "upc": "",
+            "diamondCode": "AUG191139",
+            "ean": "9781302 919382 52999",
+            "issn": "",
+            "format": "Hardcover",
+            "pageCount": 352,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/76252",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/76252/black_panther_visions_of_wakanda_hardcover?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/27352",
+                "name": "Black Panther: Visions Of Wakanda (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-09-23T00:00:00-0400"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 29.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/5e3dd32c1871f",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/5e3dd32c1871f",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76252/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/110",
+                    "name": "Christopher Priest",
+                    "role": "writer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 2
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76252/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76252/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/169376",
+                    "name": "cover from BLACK PANTHER: VISIONS OF WAKANDA HC (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/169377",
+                    "name": "story from BLACK PANTHER: VISIONS OF WAKANDA HC (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76252/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 81091,
+            "digitalId": 0,
+            "title": "Amazing Spider-Man Epic Collection: The Secret Of The Petrified Tablet (Trade Paperback)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:42:34-0500",
+            "isbn": "978-1-302-92196-5",
+            "upc": "",
+            "diamondCode": "NOV190980",
+            "ean": "9781302 921965 53999",
+            "issn": "",
+            "format": "Trade Paperback",
+            "pageCount": 464,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/81091",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/81091/amazing_spider-man_epic_collection_the_secret_of_the_petrified_tablet_trade_paperback?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/28965",
+                "name": "Amazing Spider-Man Epic Collection: The Secret Of The Petrified Tablet (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-12-23T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 39.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/40/5e3dd3248442c",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/40/5e3dd3248442c",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/81091/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/479",
+                    "name": "Paul Mounts",
+                    "role": "colorist (cover)"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 2
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/81091/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/81091/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/179903",
+                    "name": "cover from AMAZING SPIDER-MAN EPIC COLLECTION: THE SECRET OF THE PETRIFIED TABLET TPB (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/179904",
+                    "name": "story from AMAZING SPIDER-MAN EPIC COLLECTION: THE SECRET OF THE PETRIFIED TABLET TPB (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/81091/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 82560,
+            "digitalId": 0,
+            "title": "Amazing Spider-Man Epic Collection: Cosmic Adventures (Trade Paperback)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:41:14-0500",
+            "isbn": "978-1-302-92429-4",
+            "upc": "",
+            "diamondCode": "SEP191007",
+            "ean": "9781302 924294 53999",
+            "issn": "",
+            "format": "Trade Paperback",
+            "pageCount": 504,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/82560",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/82560/amazing_spider-man_epic_collection_cosmic_adventures_trade_paperback?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/29345",
+                "name": "Amazing Spider-Man Epic Collection: Cosmic Adventures (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-10-07T00:00:00-0400"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 39.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/40/5e3dd34ae91eb",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/40/5e3dd34ae91eb",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 39,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/82560/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1865",
+                    "name": "Diana Albers",
+                    "role": "letterer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1167",
+                    "name": "Ross Andru",
+                    "role": "penciler"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1298",
+                    "name": "June Brigman",
+                    "role": "penciler"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1216",
+                    "name": "Rich Buckler",
+                    "role": "penciler"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/105",
+                    "name": "Sal Buscema",
+                    "role": "penciler"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1034",
+                    "name": "Colleen Doran",
+                    "role": "penciler"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1935",
+                    "name": "Paul Becton",
+                    "role": "colorist"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/13568",
+                    "name": "Marie Javins",
+                    "role": "colorist"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/13445",
+                    "name": "Eliot R. Brown",
+                    "role": "inker"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/32",
+                    "name": "Steve Ditko",
+                    "role": "inker"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/6639",
+                    "name": "Stan Drake",
+                    "role": "inker"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1295",
+                    "name": "Mike Esposito",
+                    "role": "inker"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/601",
+                    "name": "Al Gordon",
+                    "role": "inker"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1326",
+                    "name": "Dan Green",
+                    "role": "inker"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/954",
+                    "name": "Gerry Conway",
+                    "role": "writer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/121",
+                    "name": "Peter David",
+                    "role": "writer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/9565",
+                    "name": "Tom Defalco",
+                    "role": "writer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/13183",
+                    "name": "J.M. DeMatteis",
+                    "role": "writer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/2296",
+                    "name": "Glenn Herdling",
+                    "role": "writer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1177",
+                    "name": "Tony Isabella",
+                    "role": "writer"
+                }],
+                "returned": 20
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/82560/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/82560/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/182882",
+                    "name": "cover from AMAZING SPIDER-MAN EPIC COLLECTION: COSMIC ADVENTURES TPB (2019) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/182883",
+                    "name": "story from AMAZING SPIDER-MAN EPIC COLLECTION: COSMIC ADVENTURES TPB (2019) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/82560/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 75760,
+            "digitalId": 0,
+            "title": "Age Of Conan: Valeria  (Trade Paperback)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:40:01-0500",
+            "isbn": "978-1-302-91880-4",
+            "upc": "",
+            "diamondCode": "NOV190976",
+            "ean": "9781302 918804 51599",
+            "issn": "",
+            "format": "Trade Paperback",
+            "pageCount": 112,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/75760",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/75760/age_of_conan_valeria_trade_paperback?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }, {
+                "type": "purchase",
+                "url": "http://comicstore.marvel.com/AGE-OF-CONAN-VALERIA-TPB-0/digital-comic/54090?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/27223",
+                "name": "Age Of Conan: Valeria  (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-12-23T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 15.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/90/5e3dd310d2711",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/90/5e3dd310d2711",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 1,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/75760/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 1
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/75760/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/75760/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/168371",
+                    "name": "cover from AGE OF CONAN: VALERIA TPB (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/168372",
+                    "name": "story from AGE OF CONAN: VALERIA TPB (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/75760/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 76387,
+            "digitalId": 0,
+            "title": "Aero Vol. 1: Before The Storm  (Trade Paperback)",
+            "issueNumber": 0,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T16:39:11-0500",
+            "isbn": "978-1-302-91944-3",
+            "upc": "",
+            "diamondCode": "NOV190965",
+            "ean": "9781302 919443 51799",
+            "issn": "",
+            "format": "Trade Paperback",
+            "pageCount": 136,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/76387",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/collection/76387/aero_vol_1_before_the_storm_trade_paperback?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/27396",
+                "name": "Aero Vol. 1: Before The Storm  (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2019-12-23T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 17.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/b0/5e3dd31e0cea3",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/e/b0/5e3dd31e0cea3",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 1,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76387/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 1
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76387/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76387/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/169640",
+                    "name": "cover from AERO VOL. 1 TPB (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/169641",
+                    "name": "story from AERO VOL. 1 TPB (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/76387/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 85504,
+            "digitalId": 0,
+            "title": "Wolverine by Claremont & Miller Facsimile Edition (2020) #1",
+            "issueNumber": 1,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T13:19:29-0500",
+            "isbn": "",
+            "upc": "75960609868200111",
+            "diamondCode": "DEC190765",
+            "ean": "",
+            "issn": "",
+            "format": "Comic",
+            "pageCount": 32,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/85504",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/issue/85504/wolverine_by_claremont_miller_facsimile_edition_2020_1?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/30132",
+                "name": "Wolverine by Claremont & Miller Facsimile Edition (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2020-01-20T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 3.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/20/5e3b35665ac3b",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/20/5e3b35665ac3b",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 4,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/85504/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/44",
+                    "name": "Chris Claremont",
+                    "role": "writer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/586",
+                    "name": "Michael Kelleher",
+                    "role": "colorist"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/17",
+                    "name": "Frank Miller",
+                    "role": "penciller (cover)"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 4
+            },
+            "characters": {
+                "available": 1,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/85504/characters",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                    "name": "Wolverine"
+                }],
+                "returned": 1
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/85504/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/189970",
+                    "name": "cover from new series (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/189971",
+                    "name": "story from new series (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/85504/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 84564,
+            "digitalId": 0,
+            "title": "True Believers: Iron Man 2020 - Arno Stark (2020) #1",
+            "issueNumber": 1,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T13:11:15-0500",
+            "isbn": "",
+            "upc": "75960609858300111",
+            "diamondCode": "DEC190822",
+            "ean": "",
+            "issn": "",
+            "format": "Comic",
+            "pageCount": 32,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/84564",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/issue/84564/true_believers_iron_man_2020_-_arno_stark_2020_1?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }, {
+                "type": "purchase",
+                "url": "http://comicstore.marvel.com/TRUE-BELIEVERS-IRON-MAN-2020-ARNO-STARK-1-1/digital-comic/54815?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/29807",
+                "name": "True Believers: Iron Man 2020 - Arno Stark (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2020-01-20T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 1
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/00/5e3d92f6e48cc",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/00/5e3d92f6e48cc",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 4,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84564/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/9565",
+                    "name": "Tom Defalco",
+                    "role": "writer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/199",
+                    "name": "Herb Trimpe",
+                    "role": "penciller"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/11419",
+                    "name": "Barry Windsor-Smith",
+                    "role": "penciller (cover)"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 4
+            },
+            "characters": {
+                "available": 1,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84564/characters",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010805",
+                    "name": "Machine Man"
+                }],
+                "returned": 1
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84564/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/187554",
+                    "name": "cover from True Believers: Iron Man 2020 - Arno Stark (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/187555",
+                    "name": "story from True Believers: Iron Man 2020 - Arno Stark (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84564/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 84563,
+            "digitalId": 0,
+            "title": "True Believers: Iron Man 2020 - Albert & Elsie-Dee (2020) #1",
+            "issueNumber": 1,
+            "variantDescription": "",
+            "description": null,
+            "modified": "2020-02-07T13:03:45-0500",
+            "isbn": "",
+            "upc": "759606098591000111",
+            "diamondCode": "DEC190823",
+            "ean": "",
+            "issn": "",
+            "format": "Comic",
+            "pageCount": 32,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/84563",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/issue/84563/true_believers_iron_man_2020_-_albert_elsie-dee_2020_1?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }, {
+                "type": "purchase",
+                "url": "http://comicstore.marvel.com/TRUE-BELIEVERS-IRON-MAN-2020-ALBERT-ELSIE-DEE-1-1/digital-comic/54814?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/29806",
+                "name": "True Believers: Iron Man 2020 - Albert & Elsie-Dee (2020)"
+            },
+            "variants": [],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2020-01-20T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 1
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/5e3d92fd692e0",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/5e3d92fd692e0",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 4,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84563/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1326",
+                    "name": "Dan Green",
+                    "role": "penciller (cover)"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/5044",
+                    "name": "Marc Silvestri",
+                    "role": "penciller (cover)"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/42",
+                    "name": "Larry Hama",
+                    "role": "writer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }],
+                "returned": 4
+            },
+            "characters": {
+                "available": 1,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84563/characters",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                    "name": "Wolverine"
+                }],
+                "returned": 1
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84563/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/187552",
+                    "name": "cover from True Believers: Iron Man 2020 - Albert & Elsie-Dee (2020) #1",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/187553",
+                    "name": "story from True Believers: Iron Man 2020 - Albert & Elsie-Dee (2020) #1",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84563/events",
+                "items": [],
+                "returned": 0
+            }
+        }, {
+            "id": 84245,
+            "digitalId": 0,
+            "title": "Thor (2020) #3 (Variant)",
+            "issueNumber": 3,
+            "variantDescription": "Variant",
+            "description": null,
+            "modified": "2020-02-07T11:05:29-0500",
+            "isbn": "",
+            "upc": "75960609539100331",
+            "diamondCode": "DEC190805",
+            "ean": "",
+            "issn": "",
+            "format": "Comic",
+            "pageCount": 32,
+            "textObjects": [],
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/84245",
+            "urls": [{
+                "type": "detail",
+                "url": "http://marvel.com/comics/issue/84245/thor_2020_3_variant/variant?utm_campaign=apiRef&utm_source=e71939ba2d93c78047908a73192b57c9"
+            }],
+            "series": {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/28031",
+                "name": "Thor (2020)"
+            },
+            "variants": [{
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/78629",
+                "name": "Thor (2020) #3"
+            }],
+            "collections": [],
+            "collectedIssues": [],
+            "dates": [{
+                "type": "onsaleDate",
+                "date": "2020-02-12T00:00:00-0500"
+            }, {
+                "type": "focDate",
+                "date": "2020-01-20T00:00:00-0500"
+            }],
+            "prices": [{
+                "type": "printPrice",
+                "price": 3.99
+            }],
+            "thumbnail": {
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/f0/5e28a51a3fa17",
+                "extension": "jpg"
+            },
+            "images": [{
+                "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/f0/5e28a51a3fa17",
+                "extension": "jpg"
+            }],
+            "creators": {
+                "available": 6,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84245/creators",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/13632",
+                    "name": "Ryan Brown",
+                    "role": "painter (cover)"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/12712",
+                    "name": "Donny Cates",
+                    "role": "writer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/4989",
+                    "name": "Nic Klein",
+                    "role": "inker"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/12376",
+                    "name": "Wilson Moss",
+                    "role": "editor"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+                    "name": "Vc Joe Sabino",
+                    "role": "letterer"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+                    "name": "Matthew Wilson",
+                    "role": "colorist"
+                }],
+                "returned": 6
+            },
+            "characters": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84245/characters",
+                "items": [],
+                "returned": 0
+            },
+            "stories": {
+                "available": 2,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84245/stories",
+                "items": [{
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/186278",
+                    "name": "cover from Thor (2020) #3 (VARIANT)",
+                    "type": "cover"
+                }, {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/stories/186279",
+                    "name": "story from Thor (2020) #3 (VARIANT)",
+                    "type": "interiorStory"
+                }],
+                "returned": 2
+            },
+            "events": {
+                "available": 0,
+                "collectionURI": "http://gateway.marvel.com/v1/public/comics/84245/events",
+                "items": [],
+                "returned": 0
+            }
+        }]
+    }
+}

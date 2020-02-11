@@ -14,6 +14,11 @@ target 'Marvel' do
   pod 'Nuke'
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
+  
+  target 'MarvelTests' do
+    pod 'RxTest', '~> 5'
+    pod 'RxBlocking', '~> 5'
+  end
 
 end
 
